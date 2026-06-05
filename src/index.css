@@ -84,7 +84,12 @@ html, body {
   max-width: 480px;
   margin: 0 auto;
 }
-
+.slide-stage > div {
+  padding: 0 24px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
 /* ─── Navigation Dots ───────────────────────────────────────────────────── */
 .nav-dots {
   position: fixed;
